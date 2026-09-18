@@ -74,9 +74,9 @@ export default function Contact() {
         <Reveal delay={0.35}>
           <div className="mt-10 flex items-center justify-center gap-3">
             {[
-              { icon: GithubIcon, href: "https://github.com/hvp0926", label: "GitHub" },
-              { icon: LinkedinIcon, href: "https://www.linkedin.com/in/harshvardhan-puranik", label: "LinkedIn" },
-              { icon: LeetcodeIcon, href: "https://leetcode.com/u/hvp0926", label: "LeetCode" },
+              { icon: GithubIcon, href: "https://github.com/harshvardhan-puranik", label: "GitHub" },
+              { icon: LinkedinIcon, href: "https://www.linkedin.com/in/harshvardhan-puranik-7b6627298", label: "LinkedIn" },
+              { icon: LeetcodeIcon, href: "https://leetcode.com/u/Harshvardhan_Puranik", label: "LeetCode" },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
