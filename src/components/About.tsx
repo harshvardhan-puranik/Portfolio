@@ -69,10 +69,10 @@ export default function About() {
             </Reveal>
             <Reveal delay={0.1}>
               <p>
-                My foundation runs on <span className="text-paper">Java, JavaScript, TypeScript and SQL</span>.
+                My foundation runs on <span className="text-paper">Java, JavaScript, NodeJS and SQL</span>.
                 On the frontend I pair <span className="text-paper">React with Tailwind and GSAP</span> to make
                 interfaces feel polished and kinetic; on the backend I&rsquo;m exploring{" "}
-                <span className="text-paper">FastAPI</span> — how APIs, databases and auth fit into real
+                <span className="text-paper">NodeJS</span> — how APIs, databases and auth fit into real
                 architectures — while <span className="text-amber-400">Redux</span> sharpens my sense of
                 predictable, scalable state.
               </p>
@@ -111,7 +111,7 @@ export default function About() {
                   {[
                     "Strengthening Java & DSA fundamentals",
                     "Building with React + modern frontend tooling",
-                    "Learning FastAPI backends & Redux state",
+                    "Learning NodeJS backends & Redux state",
                     "Shipping projects that prove practical skill",
                   ].map((item) => (
                     <li key={item} className="group flex items-start gap-3 text-sm text-mist">
