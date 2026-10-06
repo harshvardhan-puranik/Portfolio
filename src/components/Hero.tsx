@@ -124,7 +124,7 @@ export default function Hero() {
             21-year-old B.Tech ISE senior at{" "}
             <span className="text-paper">REVA University</span>, turning ideas
             into working products — from full-stack web apps with{" "}
-            <span className="text-paper">React &amp; FastAPI</span> to animated
+            <span className="text-paper">React &amp; NodeJS</span> to animated
             interfaces, DSA problem solving, and experiments in{" "}
             <span className="text-paper">Unity &amp; Blender</span>.
           </p>
