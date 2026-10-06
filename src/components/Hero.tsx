@@ -32,9 +32,9 @@ const ROLES = [
 const CHIPS = [
   { icon: Coffee, label: "Java", depth: 18, cls: "left-[-4%] top-[16%]", delay: "0s" },
   { icon: Atom, label: "React.js", depth: 26, cls: "right-[-6%] top-[8%]", delay: "0.6s" },
-  { icon: Braces, label: "TypeScript", depth: 14, cls: "left-[-8%] top-[52%]", delay: "1.1s" },
+  { icon: Braces, label: "MERN Stack", depth: 14, cls: "left-[-8%] top-[52%]", delay: "1.1s" },
   { icon: Zap, label: "GSAP", depth: 30, cls: "right-[-9%] top-[44%]", delay: "0.3s" },
-  { icon: Server, label: "FastAPI", depth: 20, cls: "left-[2%] bottom-[10%]", delay: "0.9s" },
+  { icon: Server, label: "NodeJS", depth: 20, cls: "left-[2%] bottom-[10%]", delay: "0.9s" },
   { icon: Gamepad2, label: "Unity", depth: 24, cls: "right-[0%] bottom-[16%]", delay: "1.4s" },
   { icon: Boxes, label: "Blender", depth: 16, cls: "right-[22%] bottom-[-2%]", delay: "0.2s" },
   { icon: Database, label: "SQL", depth: 22, cls: "left-[20%] top-[-2%]", delay: "1.7s" },
