@@ -99,7 +99,7 @@ const BARS = [
   { name: "JavaScript", pct: 84 },
   { name: "SQL", pct: 80 },
   { name: "TypeScript", pct: 76 },
-  { name: "Python", pct: 64 },
+  { name: "NodeJS", pct: 64 },
 ];
 
 function Bars() {
@@ -173,7 +173,7 @@ const CATEGORIES = [
     desc: "Front to back — building responsive, animated, production-minded apps.",
     chips: [
       ["Java"], ["JavaScript"], ["TypeScript"], ["SQL"], ["C++"], ["Python"],
-      ["React.js"], ["Tailwind CSS"], ["GSAP"], ["FastAPI"], ["HTML5"], ["CSS3"],
+      ["React.js"], ["Tailwind CSS"], ["GSAP"], ["NodeJS"], ["HTML5"], ["CSS3"],
       ["Axios"], ["REST APIs"], ["PostgreSQL"], ["Git & GitHub"], ["VS Code"],
       ["Redux", true],
     ] as [string, boolean?][],
