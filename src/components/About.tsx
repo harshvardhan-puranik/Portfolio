@@ -2,8 +2,8 @@ import { Compass, GraduationCap, Rocket, Target } from "lucide-react";
 import { Reveal, SectionHeading, useCountUp } from "../lib/fx";
 
 const MARQUEE = [
-  "Java", "JavaScript", "TypeScript", "React.js", "Tailwind CSS", "GSAP",
-  "FastAPI", "SQL", "DSA", "Unity", "Blender", "Redux", "Git", "REST APIs",
+  "Java", "JavaScript", "MERN Stack", "React.js", "Tailwind CSS", "GSAP",
+  "NodeJS", "SQL", "DSA", "Unity", "Blender", "Redux", "Git", "REST APIs",
   "AI", "Computer Graphics",
 ];
 
