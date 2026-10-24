@@ -2,8 +2,8 @@ import { Compass, GraduationCap, Rocket, Target } from "lucide-react";
 import { Reveal, SectionHeading, useCountUp } from "../lib/fx";
 
 const MARQUEE = [
-  "Java", "JavaScript", "MERN Stack", "React.js", "Tailwind CSS", "GSAP",
-  "NodeJS", "SQL", "DSA", "Unity", "Blender", "Redux", "Git", "REST APIs",
+  "Python", "FastAPI", "SQLAlchemy", "React.js", "Tailwind CSS", "GSAP",
+  "PostgreSQL", "SQL", "DSA", "Unity", "Blender", "Git", "REST APIs",
   "AI", "Computer Graphics",
 ];
 
@@ -63,18 +63,16 @@ export default function About() {
                 7th semester at <span className="text-paper">REVA University, Bengaluru</span> —
                 aspiring to start my career as a{" "}
                 <span className="text-paper">Software Development Engineer</span>. I care about
-                software engineering, full-stack development, problem solving, and building
-                interactive digital experiences that feel alive.
+                software engineering, backend architecture, API design, and building
+                reliable digital experiences that feel thoughtful and performant.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
               <p>
-                My foundation runs on <span className="text-paper">Java, JavaScript, NodeJS and SQL</span>.
+                My foundation runs on <span className="text-paper">Python, FastAPI, SQLAlchemy and SQL</span>.
                 On the frontend I pair <span className="text-paper">React with Tailwind and GSAP</span> to make
-                interfaces feel polished and kinetic; on the backend I&rsquo;m exploring{" "}
-                <span className="text-paper">NodeJS</span> — how APIs, databases and auth fit into real
-                architectures — while <span className="text-amber-400">Redux</span> sharpens my sense of
-                predictable, scalable state.
+                interfaces feel polished and kinetic; on the backend I build with <span className="text-paper">FastAPI</span> and
+                <span className="text-paper"> SQLAlchemy</span> to design clean APIs, data models, and scalable service layers.
               </p>
             </Reveal>
             <Reveal delay={0.15}>
@@ -109,9 +107,9 @@ export default function About() {
                 </p>
                 <ul className="space-y-3">
                   {[
-                    "Strengthening Java & DSA fundamentals",
-                    "Building with React + modern frontend tooling",
-                    "Learning NodeJS backends & Redux state",
+                    "Strengthening Python & backend fundamentals",
+                    "Building APIs with FastAPI + SQLAlchemy",
+                    "Designing reliable database models & services",
                     "Shipping projects that prove practical skill",
                   ].map((item) => (
                     <li key={item} className="group flex items-start gap-3 text-sm text-mist">
@@ -128,3 +126,4 @@ export default function About() {
     </>
   );
 }
+

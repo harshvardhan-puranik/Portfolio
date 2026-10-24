@@ -22,22 +22,22 @@ import { Cutout, Scramble, useTypewriter } from "../lib/fx";
 gsap.registerPlugin(ScrollTrigger);
 
 const ROLES = [
-  "Software Development Engineer",
-  "Full-Stack Developer",
-  "DSA Problem Solver",
+  "Python Backend Developer",
+  "FastAPI Engineer",
+  "API & Database Developer",
   "React + GSAP Animator",
   "Unity & Blender Explorer",
 ];
 
 const CHIPS = [
-  { icon: Coffee, label: "Java", depth: 18, cls: "left-[-4%] top-[16%]", delay: "0s" },
+  { icon: Coffee, label: "Python", depth: 18, cls: "left-[-4%] top-[16%]", delay: "0s" },
   { icon: Atom, label: "React.js", depth: 26, cls: "right-[-6%] top-[8%]", delay: "0.6s" },
-  { icon: Braces, label: "MERN Stack", depth: 14, cls: "left-[-8%] top-[52%]", delay: "1.1s" },
+  { icon: Braces, label: "FastAPI", depth: 14, cls: "left-[-8%] top-[52%]", delay: "1.1s" },
   { icon: Zap, label: "GSAP", depth: 30, cls: "right-[-9%] top-[44%]", delay: "0.3s" },
-  { icon: Server, label: "NodeJS", depth: 20, cls: "left-[2%] bottom-[10%]", delay: "0.9s" },
+  { icon: Server, label: "SQLAlchemy", depth: 20, cls: "left-[2%] bottom-[10%]", delay: "0.9s" },
   { icon: Gamepad2, label: "Unity", depth: 24, cls: "right-[0%] bottom-[16%]", delay: "1.4s" },
   { icon: Boxes, label: "Blender", depth: 16, cls: "right-[22%] bottom-[-2%]", delay: "0.2s" },
-  { icon: Database, label: "SQL", depth: 22, cls: "left-[20%] top-[-2%]", delay: "1.7s" },
+  { icon: Database, label: "PostgreSQL", depth: 22, cls: "left-[20%] top-[-2%]", delay: "1.7s" },
 ];
 
 export default function Hero() {
@@ -105,10 +105,10 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full rounded-full bg-jade-400 animate-ping-dot" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-jade-400" />
             </span>
-            open to SDE roles &amp; internships · Bengaluru
+            open to backend &amp; SDE roles · Bengaluru
           </div>
 
-          <h1 className="font-display w-full max-w-full text-[clamp(1.15rem,7cqi,2.15rem)] font-extrabold leading-[0.95] tracking-tight sm:text-[clamp(1.6rem,7cqi,3.2rem)] lg:text-[clamp(1.8rem,7cqi,3.4rem)] xl:text-[clamp(2rem,7cqi,3.8rem)]">
+          <h1 className="font-display w-full max-w-full text-[clamp(1.15rem,7cqi,2.15rem)] font-extrabold leading-[0.95] tracking-tight sm:text-[clamp(1.6rem,7cqi,3.2rem)] lg:text-[clamp(1.8rem,7cqi,4rem)]">
             <Scramble text="HARSHVARDHAN" delay={200} className="block whitespace-nowrap text-paper" />
             <Scramble text="PURANIK" delay={650} className="block whitespace-nowrap text-outline" />
           </h1>
@@ -123,23 +123,23 @@ export default function Hero() {
           <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-mist">
             21-year-old B.Tech ISE senior at{" "}
             <span className="text-paper">REVA University</span>, turning ideas
-            into working products — from full-stack web apps with{" "}
-            <span className="text-paper">React &amp; NodeJS</span> to animated
-            interfaces, DSA problem solving, and experiments in{" "}
+            into working products — from backend services with{" "}
+            <span className="text-paper">FastAPI &amp; SQLAlchemy</span> to polished
+            frontend interfaces, DSA problem solving, and experiments in{" "}
             <span className="text-paper">Unity &amp; Blender</span>.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
               href="#projects"
-              className="group inline-flex items-center gap-2.5 rounded-md bg-crimson-600 px-6 py-3.5 font-mono text-sm font-semibold text-paper transition-all duration-300 hover:-translate-y-1 hover:bg-crimson-500 hover:shadow-[0_18px_44px_-14px_rgba(230,59,86,0.8)]"
+              className="group inline-flex items-center gap-2.5 rounded-md bg-crimson-600 px-6 py-3.5 font-mono text-sm font-semibold text-paper transition-all duration-300 hover:-translate-y-1"
             >
               explore my work
               <ArrowDown size={15} className="transition-transform duration-300 group-hover:translate-y-0.5" />
             </a>
             <a
               href="mailto:hvp0926@gmail.com"
-              className="group inline-flex items-center gap-2.5 rounded-md border border-ink-600 px-6 py-3.5 font-mono text-sm font-medium text-paper transition-all duration-300 hover:-translate-y-1 hover:border-crimson-500 hover:text-crimson-300"
+              className="group inline-flex items-center gap-2.5 rounded-md border border-ink-600 px-6 py-3.5 font-mono text-sm font-medium text-paper transition-all duration-300 hover:-translate-y-1 hover:border-crimson-600/70 hover:text-crimson-400"
             >
               <Send size={14} className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               get in touch
@@ -147,7 +147,7 @@ export default function Hero() {
             <a
               href="/Harshvardhan_Puranik_Resume.pdf"
               download="Harshvardhan_Puranik_Resume.pdf"
-              className="group inline-flex items-center gap-2.5 rounded-md border border-ink-600 bg-ink-850/80 px-6 py-3.5 font-mono text-sm font-medium text-paper backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-crimson-500 hover:bg-ink-800 hover:text-crimson-300"
+              className="group inline-flex items-center gap-2.5 rounded-md border border-ink-600 bg-ink-850/80 px-6 py-3.5 font-mono text-sm font-medium text-paper backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-crimson-600/70"
             >
               <Download size={14} className="transition-transform duration-300 group-hover:translate-y-0.5" />
               download resume
@@ -167,7 +167,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={label}
-                className="group rounded-md border border-ink-700 bg-ink-850/70 p-2.5 text-mist transition-all duration-300 hover:-translate-y-1 hover:border-crimson-600/70 hover:text-crimson-400 hover:shadow-[0_10px_26px_-12px_rgba(230,59,86,0.6)]"
+                className="group rounded-md border border-ink-700 bg-ink-850/70 p-2.5 text-mist transition-all duration-300 hover:-translate-y-1 hover:border-crimson-600/70 hover:text-crimson-400"
               >
                 <Icon size={17} />
               </a>
@@ -210,7 +210,7 @@ export default function Hero() {
               className={`absolute ${cls} z-20 will-change-transform`}
             >
               <div
-                className="flex items-center gap-2 rounded-md border border-ink-600/90 bg-ink-850/85 px-3 py-1.5 font-mono text-[11px] text-paper shadow-[0_12px_30px_-12px_rgba(0,0,0,0.8)] backdrop-blur-sm animate-floaty"
+                className="flex items-center gap-2 rounded-md border border-ink-600/90 bg-ink-850/85 px-3 py-1.5 font-mono text-[11px] text-paper shadow-[0_12px_30px_-12px_rgba(0,0,0,0.8)] backdrop-blur-sm"
                 style={{ animationDelay: delay }}
               >
                 <Icon size={13} className="text-crimson-400" />
@@ -224,7 +224,7 @@ export default function Hero() {
             ref={(el) => {
               layerRefs.current[12] = el;
             }}
-            className="absolute left-[-6%] top-[30%] z-20 hidden w-56 rounded-lg border border-ink-600/90 bg-ink-900/90 p-4 font-mono text-[11px] leading-relaxed shadow-[0_20px_50px_-20px_rgba(0,0,0,0.9)] backdrop-blur-sm sm:block will-change-transform"
+            className="absolute left-[-6%] top-[30%] z-20 hidden w-56 rounded-lg border border-ink-600/90 bg-ink-900/90 p-4 font-mono text-[11px] leading-relaxed shadow-[0_20px_50px_-20px_rgba(0,0,0,0.9)] backdrop-blur-sm lg:block"
           >
             <div className="mb-2 flex gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full bg-crimson-500" />
@@ -250,9 +250,9 @@ export default function Hero() {
               <span className="text-faint">,</span>
             </p>
             <p className="pl-3">
-              <span className="text-amber-300">sem</span>
+              <span className="text-amber-300">stack</span>
               <span className="text-faint">:</span>{" "}
-              <span className="text-crimson-300">7</span>
+              <span className="text-jade-400">'FastAPI'</span>
               <span className="text-faint">,</span>
             </p>
             <p>
@@ -285,3 +285,4 @@ export default function Hero() {
     </section>
   );
 }
+

@@ -20,7 +20,7 @@ function RadarCard() {
         datasets: [
           {
             label: "proficiency",
-            data: [84, 62, 78, 86, 80, 58],
+            data: [84, 90, 78, 86, 80, 58],
             backgroundColor: "rgba(230, 59, 86, 0.16)",
             borderColor: "#e63b56",
             borderWidth: 2,
@@ -95,11 +95,11 @@ function RadarCard() {
 
 /* ---------------- animated bars ---------------- */
 const BARS = [
-  { name: "Java", pct: 88 },
-  { name: "JavaScript", pct: 84 },
+  { name: "Python", pct: 92 },
+  { name: "FastAPI", pct: 88 },
+  { name: "SQLAlchemy", pct: 84 },
   { name: "SQL", pct: 80 },
-  { name: "TypeScript", pct: 76 },
-  { name: "NodeJS", pct: 64 },
+  { name: "React.js", pct: 74 },
 ];
 
 function Bars() {
@@ -125,7 +125,7 @@ function Bars() {
   return (
     <div ref={ref} className="mx-auto w-full max-w-[340px] rounded-lg border border-ink-700 bg-ink-850/70 p-4 sm:max-w-none sm:p-6">
       <p className="mb-4 font-mono text-xs uppercase tracking-widest text-crimson-400 sm:mb-5">
-        // core languages
+        // core stack
       </p>
       <div className="space-y-4">
         {BARS.map((b, i) => (
@@ -170,12 +170,11 @@ const CATEGORIES = [
   {
     icon: Code2,
     title: "Development",
-    desc: "Front to back — building responsive, animated, production-minded apps.",
+    desc: "From Python services to polished client apps — building practical, efficient software.",
     chips: [
-      ["Java"], ["JavaScript"], ["TypeScript"], ["SQL"], ["C++"], ["Python"],
-      ["React.js"], ["Tailwind CSS"], ["GSAP"], ["NodeJS"], ["HTML5"], ["CSS3"],
-      ["Axios"], ["REST APIs"], ["PostgreSQL"], ["Git & GitHub"], ["VS Code"],
-      ["Redux", true],
+      ["Python"], ["FastAPI"], ["SQLAlchemy"], ["SQL"], ["TypeScript"], ["React.js"],
+      ["Tailwind CSS"], ["GSAP"], ["REST APIs"], ["PostgreSQL"], ["Git & GitHub"], ["VS Code"],
+      ["Docker"], ["Redis", true],
     ] as [string, boolean?][],
   },
   {
@@ -240,3 +239,4 @@ export default function Skills() {
     </section>
   );
 }
+
